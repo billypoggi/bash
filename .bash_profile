@@ -2,8 +2,13 @@
 source ~/git-completion.bash
 
 # Run Sublime from CLI
-#alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/sublime.exe"
-alias subl="C:/Program\ Files\ (x86\)/Sublime\ Text\ 3/ sublime_text.exe" 
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+#alias subl="C:/Program\ Files\ \(x86\)/Sublime\ Text\ 3/ sublime_text.exe" 
+
+# *nix systems
+#use python 3.x instead of 2.7 
+alias python=python3
+
 
 # colors!
 green="\[\033[0;32m\]"
